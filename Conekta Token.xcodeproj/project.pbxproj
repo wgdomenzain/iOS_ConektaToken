@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1BAC6691C0A0314003C97B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAC6681C0A0314003C97B7 /* main.m */; };
+		D1BAC66C1C0A0314003C97B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAC66B1C0A0314003C97B7 /* AppDelegate.m */; };
+		D1BAC66F1C0A0314003C97B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BAC66E1C0A0314003C97B7 /* ViewController.m */; };
+		D1BAC6721C0A0314003C97B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BAC6701C0A0314003C97B7 /* Main.storyboard */; };
+		D1BAC6751C0A0314003C97B7 /* Conekta_Token.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BAC6731C0A0314003C97B7 /* Conekta_Token.xcdatamodeld */; };
+		D1BAC6771C0A0314003C97B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1BAC6761C0A0314003C97B7 /* Assets.xcassets */; };
+		D1BAC67A1C0A0314003C97B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BAC6781C0A0314003C97B7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1BAC6641C0A0314003C97B7 /* Conekta Token.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conekta Token.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BAC6681C0A0314003C97B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1BAC66A1C0A0314003C97B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1BAC66B1C0A0314003C97B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1BAC66D1C0A0314003C97B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1BAC66E1C0A0314003C97B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1BAC6711C0A0314003C97B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1BAC6741C0A0314003C97B7 /* Conekta_Token.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conekta_Token.xcdatamodel; sourceTree = "<group>"; };
+		D1BAC6761C0A0314003C97B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1BAC6791C0A0314003C97B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1BAC67B1C0A0314003C97B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BAC6611C0A0314003C97B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1BAC65B1C0A0314003C97B7 = {
+			isa = PBXGroup;
+			children = (
+				D1BAC6661C0A0314003C97B7 /* Conekta Token */,
+				D1BAC6651C0A0314003C97B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1BAC6651C0A0314003C97B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1BAC6641C0A0314003C97B7 /* Conekta Token.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1BAC6661C0A0314003C97B7 /* Conekta Token */ = {
+			isa = PBXGroup;
+			children = (
+				D1BAC66A1C0A0314003C97B7 /* AppDelegate.h */,
+				D1BAC66B1C0A0314003C97B7 /* AppDelegate.m */,
+				D1BAC66D1C0A0314003C97B7 /* ViewController.h */,
+				D1BAC66E1C0A0314003C97B7 /* ViewController.m */,
+				D1BAC6701C0A0314003C97B7 /* Main.storyboard */,
+				D1BAC6761C0A0314003C97B7 /* Assets.xcassets */,
+				D1BAC6781C0A0314003C97B7 /* LaunchScreen.storyboard */,
+				D1BAC67B1C0A0314003C97B7 /* Info.plist */,
+				D1BAC6731C0A0314003C97B7 /* Conekta_Token.xcdatamodeld */,
+				D1BAC6671C0A0314003C97B7 /* Supporting Files */,
+			);
+			path = "Conekta Token";
+			sourceTree = "<group>";
+		};
+		D1BAC6671C0A0314003C97B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1BAC6681C0A0314003C97B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1BAC6631C0A0314003C97B7 /* Conekta Token */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1BAC67E1C0A0314003C97B7 /* Build configuration list for PBXNativeTarget "Conekta Token" */;
+			buildPhases = (
+				D1BAC6601C0A0314003C97B7 /* Sources */,
+				D1BAC6611C0A0314003C97B7 /* Frameworks */,
+				D1BAC6621C0A0314003C97B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conekta Token";
+			productName = "Conekta Token";
+			productReference = D1BAC6641C0A0314003C97B7 /* Conekta Token.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1BAC65C1C0A0314003C97B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Smartplace;
+				TargetAttributes = {
+					D1BAC6631C0A0314003C97B7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D1BAC65F1C0A0314003C97B7 /* Build configuration list for PBXProject "Conekta Token" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1BAC65B1C0A0314003C97B7;
+			productRefGroup = D1BAC6651C0A0314003C97B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BAC6631C0A0314003C97B7 /* Conekta Token */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1BAC6621C0A0314003C97B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BAC67A1C0A0314003C97B7 /* LaunchScreen.storyboard in Resources */,
+				D1BAC6771C0A0314003C97B7 /* Assets.xcassets in Resources */,
+				D1BAC6721C0A0314003C97B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1BAC6601C0A0314003C97B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BAC66F1C0A0314003C97B7 /* ViewController.m in Sources */,
+				D1BAC66C1C0A0314003C97B7 /* AppDelegate.m in Sources */,
+				D1BAC6691C0A0314003C97B7 /* main.m in Sources */,
+				D1BAC6751C0A0314003C97B7 /* Conekta_Token.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1BAC6701C0A0314003C97B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BAC6711C0A0314003C97B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1BAC6781C0A0314003C97B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1BAC6791C0A0314003C97B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1BAC67C1C0A0314003C97B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1BAC67D1C0A0314003C97B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1BAC67F1C0A0314003C97B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Conekta Token/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Conekta-Token";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1BAC6801C0A0314003C97B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Conekta Token/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Conekta-Token";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1BAC65F1C0A0314003C97B7 /* Build configuration list for PBXProject "Conekta Token" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BAC67C1C0A0314003C97B7 /* Debug */,
+				D1BAC67D1C0A0314003C97B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1BAC67E1C0A0314003C97B7 /* Build configuration list for PBXNativeTarget "Conekta Token" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1BAC67F1C0A0314003C97B7 /* Debug */,
+				D1BAC6801C0A0314003C97B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1BAC6731C0A0314003C97B7 /* Conekta_Token.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1BAC6741C0A0314003C97B7 /* Conekta_Token.xcdatamodel */,
+			);
+			currentVersion = D1BAC6741C0A0314003C97B7 /* Conekta_Token.xcdatamodel */;
+			path = Conekta_Token.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1BAC65C1C0A0314003C97B7 /* Project object */;
+}
